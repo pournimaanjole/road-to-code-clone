@@ -1,0 +1,207 @@
+.head{
+    width: 100%;
+    height:60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffebcd;
+
+}
+.bold{
+    font-size: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+}
+.rtc{
+    width: 40%;
+    font-size: 25px;
+}
+.rtc-small p{
+   display: inline;
+   margin-left: 15px;
+   
+}
+.rtc-small{
+    font-size: 20px;
+}
+.rtc-structure{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.rtc-img{
+    height: 400px;
+
+   margin-left: 150px;
+    
+}.quality{
+    font-family: Arial;
+    font-size:40px ;
+    margin-bottom: 0;
+}.aim{
+    margin-top: o;
+    color:rgb(64, 62, 62);
+    
+} .expore
+{
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.btn-explore{
+    width: 170px;
+    height: 40px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 4px;
+    background-color:#212529 ;
+    color:white ;
+    border: none;
+    border-radius: 4px;
+}
+.btn-call{
+    height:40px ;
+    width:100px ;
+    font-weight: bold;
+    background-color:#ffc107 ;
+    color: black;
+    font-size: medium;
+    border: none;
+    border-radius: 4px;
+}
+.class-btn{
+    width:80px;
+    
+   
+} .unique{
+    font-size: 30px;
+    color:rgb(30, 152, 200) ;
+}.learn{
+    color: blac;
+    font-size: 30px;
+}.fetures{
+    margin-left: 90px;
+} .online{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.video-lecture{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 5px 2px #cfe7fe;
+   
+}.lecture{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content:space-evenly ;
+}
+.video-lecture p{
+    font-size: 30px;
+    margin-bottom: 3px;
+    
+}
+
+
+  
+
+.img-lecture img{
+    width: 450px;
+    height: 460px;
+
+}
+body{
+    background-color: #f6f8fa;
+}
+.main-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.small-card {
+    height: 300px;
+    width: 450px;
+    border: 0.5px solid #cfe7fe ;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 2px #cfe7fe;
+    background-color: white;
+   
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.info {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img {
+    height: 25px;
+    
+
+}
+
+
+.img-card{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.rupee-img {
+    height: 20px;
+}
+
+.cousre-card-price {
+    text-align: center;
+    font-size: medium;
+}
+
+.button {
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #212529;
+    color: white;
+    font-size: medium;
+    padding: 6px 12px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+.font-size {
+    font-size: 30px;
+    font-weight: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}.aim{
+    
+    font-size: 30px;
+}
