@@ -57,10 +57,10 @@ align-items: center;
 
 }
 .btn-explore{
-    width: 170px;
+    width: 190px;
     height: 40px;
     font-size: medium;
-    font-weight: bold;
+    
     padding: 4px;
     background-color:#212529 ;
     color:white ;
@@ -70,7 +70,6 @@ align-items: center;
 .btn-call{
     height:40px ;
     width:100px ;
-    font-weight: bold;
     background-color:#ffc107 ;
     color: black;
     font-size: medium;
@@ -78,10 +77,22 @@ align-items: center;
     border-radius: 4px;
 }
 .class-btn{
-    width:80px;
+    width:170px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: #212529;
+    border-radius: 4px;
     
    
-} .unique{
+}  .class-btn i{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+}
+
+.unique{
     font-size: 30px;
     color:rgb(30, 152, 200) ;
 }.learn{
@@ -91,37 +102,33 @@ align-items: center;
     margin-left: 90px;
 } .online{
     display: flex;
-    justify-content: space-evenly;
-    
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding: 50px
+    }
+.div3{
+    height: 410px;
+    width: 410px;
 }
 .video-lecture{
-    width: 400px;
-    height: 100px;
-    background-color: white;
-    border: none;
-    box-shadow: 0px 0px 5px 2px #cfe7fe;
-   
-}.lecture{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    justify-content:space-evenly ;
+    width: 410px;
+    height: 110px;
+    border: 1px solid black;
+    margin-bottom: 15px; 
+    padding-bottom: 15px;
+ 
 }
-.video-lecture p{
-    font-size: 30px;
-    margin-bottom: 3px;
+
+  .video-lecture p{
+    font-size: 25px;
     
+  }
+.img-lecture{
+    position: relative;
+    left: 5px;
 }
 
-
-  
-
-.img-lecture img{
-    width: 450px;
-    height: 460px;
-
-}
 body{
     background-color: #f6f8fa;
 }
